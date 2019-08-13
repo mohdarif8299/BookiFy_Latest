@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "23636044254",
+    "firebase_url": "https://bookstore-2b1c0.firebaseio.com",
+    "project_id": "bookstore-2b1c0",
+    "storage_bucket": "bookstore-2b1c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23636044254:android:3d16dce745bbb041",
+        "android_client_info": {
+          "package_name": "com.books.mohdarif.bookify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23636044254-icol887o5lvele2cgu1hg489bek263fg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.books.mohdarif.bookify",
+            "certificate_hash": "c85a61532ea850272144d569320223bf053b380d"
+          }
+        },
+        {
+          "client_id": "23636044254-1c8j41go6s9cbbv56pd3m28pkbm4v9bm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaT0PgerxFsvgqrchhqhHwy_30lCTUtRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23636044254-1c8j41go6s9cbbv56pd3m28pkbm4v9bm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

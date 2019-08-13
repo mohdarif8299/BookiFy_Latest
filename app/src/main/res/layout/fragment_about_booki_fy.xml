@@ -1,0 +1,81 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/colorAccent"
+          android:orientation="vertical"
+          >
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:background="@color/colorPrimaryDark"
+              android:orientation="horizontal"
+              >
+              <ImageView
+                  android:layout_width="50dp"
+                  android:layout_height="40dp"
+                  android:src="@drawable/back_button"
+                  android:padding="10dp"
+                  android:id="@+id/back_button"
+                  android:layout_gravity="center"
+                  />
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="About BookiFy"
+                  android:textSize="16dp"
+                  android:layout_gravity="center"
+                  android:textColor="@color/colorAccent"
+                  android:layout_margin="10dp"
+                  android:fontFamily="@font/comfortaa"
+                  />
+          </LinearLayout>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:fontFamily="@font/comfortaa"
+              android:textSize="16dp"
+              android:text="Welcome to BookiFy, your number one source for getting top programming books pdf's. We're dedicated to giving you the very best of [Book's Pdf], with a focus on downloading, saving your favourate, covering around 20 Technologies."
+              android:textColor="@color/colorPrimaryDark"
+              android:layout_margin="10dp"
+              />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:fontFamily="@font/comfortaa"
+              android:textSize="16dp"
+              android:text="Founded in 2019 by Mohd Arifullah, BookiFy has come a long way from its beginnings in New Delhi. When Mohd Arif first started out, his passion for providing programming books pdf drove them to  do tons of research, data collection etc, so that BookiFy can offer you the most of it service. We now serve customers all over the world, and are thrilled that we're able to turn our passion into my own Application."
+              android:textColor="@color/colorPrimaryDark"
+              android:layout_margin="10dp"
+              />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="I hope you enjoy my products as much as I enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact me."
+              android:textColor="@color/colorPrimaryDark"
+              android:fontFamily="@font/comfortaa"
+              android:layout_margin="10dp"
+              android:textSize="16dp"
+              />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="16dp"
+              android:textColor="@color/colorPrimaryDark"
+              android:text="Sincerely,
+              Mohd Arifullah"
+              android:layout_margin="10dp"
+              android:fontFamily="@font/comfortaa"
+              />
+      </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
